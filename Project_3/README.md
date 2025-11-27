@@ -1,4 +1,3 @@
-````markdown
 # 🤖 ROS 3-DOF Arm Inverse Kinematics Solver
 
 ![ROS](https://img.shields.io/badge/ROS-Noetic-blue) ![C++](https://img.shields.io/badge/C++-11-green) ![Rviz](https://img.shields.io/badge/Visualization-Rviz-orange)
@@ -115,6 +114,3 @@ $$ \text{Error} = \sqrt{(x_{target} - x_{fk})^2 + (y_{target} - y_{fk})^2 + (z_{
 -----
 
 *Project created for Robotics System Course.*
-
-```
-```
