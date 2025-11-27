@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="cv_multichallenge" type="cv_publisher_node.py" name="cv_publisher_node" output="screen" />
+  <node pkg="cv_multichallenge" type="detection_subscriber" name="detection_subscriber" output="screen" />
+</launch>
