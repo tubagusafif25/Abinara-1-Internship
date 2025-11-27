@@ -1,12 +1,14 @@
-Object-Oriented Friendship Model
-Objective
+#Object-Oriented Friendship Model
+
+##Objective
 Develop a C++ application that demonstrates core Object-Oriented Programming (OOP) principles by modeling social relationships. The project simulates the hierarchy between a standard "Friend" and a "Best Friend" to showcase inheritance, encapsulation, and method overriding.
 
-Project Structure
+##Project Structure
 cpp-oop-friendship/
 ├── FRIEND.h       # Header file containing class definitions & hierarchy
 └── main.cpp       # Implementation logic and driver code
-Components
+
+##Components
 Component 1: The Base Class (Friend)
 Defined a fundamental class to handle basic interactions:
 
@@ -36,18 +38,16 @@ Method Overriding: Customizing inherited functions to perform specific tasks.
 
 Pointer Logic & Static Binding: Demonstrating how a base class pointer (Friend*) interacts with a derived class object (BestFriend), specifically showcasing static binding behavior in C++.
 
-How to Run
+##How to Run
 To compile and execute this project using a standard C++ compiler:
-
-Bash
 
 # Compile the program
 g++ main.cpp -o friend_app
 
 # Run the executable
 ./friend_app
-Expected Output
-Plaintext
+
+##Expected Output
 
 Afif says: Thank you for being a great friend!
 
