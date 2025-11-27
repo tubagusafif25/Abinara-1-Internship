@@ -1,0 +1,8 @@
+int32 cmd
+int32 id
+string name
+float64 grade
+---
+bool success
+string info
+student_msgs/StudentMsg[] all_students
