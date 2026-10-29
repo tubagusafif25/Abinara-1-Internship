@@ -1,13 +1,13 @@
 #!/bin/bash
 
 Timestamps=$(date +"%Y-%m-%d_%H-%M-%S")
-backup_file="backups/backup_$Timestamps.zip"
+backup_dir="backups"
+backup_file="$backup_dir/backup_$Timestamps.zip"
 
-zip -r "$backup_file" src/ data/ config/ logs/
+mkdir -p "$backup_dir"
 
-mkdir -p backups
-
-if [ -f "$backup_file" ]; then
+echo "Creating backup $backup_file ..."
+if zip -r "$backup_file" src/ data/ config/ logs/ > /dev/null; then
     echo "The backup is successful"
     exit 0
 else

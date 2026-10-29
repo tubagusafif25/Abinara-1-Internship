@@ -1,4 +1,3 @@
-````
 # Object-Oriented Friendship Model
 
 ## Objective
@@ -6,10 +5,10 @@ Develop a C++ application that demonstrates core Object-Oriented Programming (OO
 
 ## Project Structure
 ```text
-cpp-oop-friendship/
-├── FRIEND.h       # Header file containing class definitions & hierarchy
-└── main.cpp       # Implementation logic and driver code
-````
+Project_2/
+├── FRIEND.h            # Header file containing class definitions & hierarchy
+└── Tugas2_magang.cpp   # Implementation logic and driver code
+```
 
 ## Components
 
@@ -43,7 +42,7 @@ To compile and execute this project using a standard C++ compiler:
 
 ```bash
 # Compile the program
-g++ main.cpp -o friend_app
+g++ Tugas2_magang.cpp -o friend_app
 
 # Run the executable
 ./friend_app
